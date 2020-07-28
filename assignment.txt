@@ -1,0 +1,105 @@
+1. Run a script and demonstrate adding two integers and convert then to a hexadecimal?
+	
+	$p=10
+	$r=20
+	$result=$p+$q
+	30
+	for conveting integer into a hexadecimal we use "0x"
+	eg: [int]"0x$result"
+		40
+	eg: $num="fa00"
+	[int]"0x$num"
+		6400
+
+2.Run a script and demonstrate if elseif condition?
+
+	$vegitables="tomato"
+	$flowers="rose"
+	if ($vegitables -eq "tomato") {'we found vegitables'} elseif ($vegitables -eq "rose") {'we find flowers'}
+		we found vegitables
+
+3.commands
+get-command: it displays all the commands that are used in the power shell with commandtype and name of the command
+get-date: it displays the current date and time
+get-process: it displays all the processes running on the system
+get-alias: it displays all the alias names for the commands that we used in powershell
+write-host: it displays the content what we write next to the command writehost
+
+python
+
+1. working on different variables
+
+	a=10
+	print(a) 
+	10   
+  
+	b,c,d,e=1,2,3,4
+	print(b,c,d,e)
+	1,2,3,4
+
+	#multiple variables with single assignment
+	p=r=s=t=1000
+	print(p,r,s,t)
+	1000 1000 1000 1000
+	
+
+2. working on string concatenation
+
+	firstname="udayasree"
+	lastname=" sadam"
+	print(firstname+lastname)
+	udayasree sadam
+
+
+3. program for simple calculator
+
+a=input("enter the num1")
+b=input("enter the num2")
+opt=input(select: + addtion, - substraction, * multiplication, / division)
+if opt=='+':
+	print(a+b)
+elif opt=='-':
+	print(a-b)
+elif opt=='*':
+	print(a*b)
+elif opt=='/':
+	print(a/b)
+else:
+	print("invalid")
+
+
+4.find the type of available datatypes in python
+	
+s="hello"
+print(type(s))
+a=20
+print(type(a))
+b=10.00
+print(type(b))
+c=True
+print(type(c))
+
+5. functions in python
+
+we use def keyword to define a function in python
+
+def add():
+	a=10
+	b=20
+	c=a+b
+	print(c)
+add()
+
+6. string functions 
+
+s="hello"
+print(len(s))
+5
+print(max(s))
+o
+print(min(s))
+e
+print(title(s))
+Hello
+
+
